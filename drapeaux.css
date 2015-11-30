@@ -1,0 +1,15 @@
+/*Pour tout le document : fond image "collines.jpg" (une seule fois)*/
+body{background-image:url(images/collines.jpg); background-repeat: no-repeat;}
+
+/*Pour le titre : bordure bleu foncé (navy) 3pt, texte centré bleu foncé, largeur de l'élément 60%, marge à gauche 10%*/
+h1{border-style:solid; border-color:navy;border-width:3pt;text-align: center;color: navy;width: 60%;margin-left: 10%;}
+
+/*Pour le sous-titre : souligné*/
+h2{text-decoration: underline;}
+
+/*Pour les items des listes : marge basse 20pt*/
+li{margin-bottom: 20pt;}
+
+/*Pour les liens : texte gras Courier New fuchsia*/
+a{font-weight: bold;font-family: courier;color: fuchsia;}
+

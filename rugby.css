@@ -1,0 +1,26 @@
+/*titre : bordure effet 3D foncé/clair de couleur rgb(240,0,128) d'épaisseur 5pt
+        texte de couleur blue, centré
+        marge intérieure de 2pt
+        réduire l'élément et le centrer
+        marge extérieure basse de 30pt*/
+h1{border:ridge rgb(240,0,128)  5pt ;
+	color: blue;text-align: center;
+	padding: 2pt;
+	width: 35%;margin: auto;
+	margin-bottom: 30pt;}
+
+/*paragraphe : en gras, de couleur rgb(240,0,128),
+             avec un décalage de 30pt pour la 1ère ligne*/
+p{font-weight: bold;color:rgb(240,0,128);text-indent: 30pt;}
+
+/*liste déroulante : texte en italique, gras, de couleur blue sur un fond aqua */
+ select{font:italic bold;color: blue;background-color: aqua;}
+
+/*haut de page : fond aqua, marge intérieures 10pt*/
+#div1{background-color: aqua;padding: 10pt;}
+
+/*milieu de page : fond lime, marge intérieures 10pt*/
+#div2{background-color: lime;padding: 10pt;}
+
+/*bas de page : fond rgb(0,191,255), marge intérieures 10pt*/
+#div3{background-color: rgb(0,191,255);padding: 10pt;}

@@ -1,0 +1,35 @@
+/*titre : bordure simple de couleur #0000AA d'épaisseur 3pt
+        police de couleur #BB0000, texte centré
+        marge intérieure de 3pt
+        marge extérieure haute et basse de 5pt
+        réduire l'élément et le centrer
+        fond couleur #B0E0E6*/
+        h1{border:solid  #0000AA 3pt;
+        	color:  #BB0000;
+        	text-align: center;
+        	padding: 3pt;
+        	margin-bottom,margin-top: 5pt;
+        	width: 50%;margin: auto;
+        	background-color: #B0E0E6;}
+
+/*sous-titre : de couleur #0000BB, souligné*/
+h2{color: #0000BB;text-decoration: underline;}
+
+/*iste : puces en cercles*/
+li{list-style-type:circle;}
+/*tableau fond #B0E0E6
+        bordure navy*/
+        table{background-color:#B0E0E6;border:solid navy;}
+/*entête du tableau : 1ère ligne fond couleur #00CEAA bordurées couleur navy 
+                    cellules 2ème ligne fond couleur #87CEFA bordurées couleur navy */
+.ligne1tab{background-color: #00CEAA;}
+.ligne2tab{background-color: #87CEFA;}
+th{border:solid navy;}
+/*cellules du corps du tableau : hauteur 100pt, bordure gray*/
+td{height: 100pt;border:solid gray;}
+/*Lorsque l'on survole les cellules de la colonne de gauche, 
+on doit voir apparaître le schtroumpf correspondant.*/
+#grand:hover { background-image:url(images/grandSchtroumpf.jpg);background-repeat: no-repeat; background-size: 65%;background-position: center;}
+#lunette:hover { background-image:url(images/schtroumpfALunettes.jpg);background-repeat: no-repeat; background-size: 80% ;background-position: center;}
+#farceur:hover { background-image:url(images/schtroumpfFarceur.jpg); background-repeat: no-repeat; background-size: 95%;background-position: center;}
+#fette:hover { background-image:url(images/schtroumpfette.jpg); background-repeat: no-repeat; background-size: 70%;background-position: center;}

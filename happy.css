@@ -1,0 +1,33 @@
+/*couleur de fond rgb(138,64,164)*/
+body{background-color: rgb(138,64,164);}
+/*
+/*titre : fond navy
+        bordure 3D blanche 3pt
+        marges intérieures 10pt
+        texte centré blanc 
+        largeur du titre */
+h1{background-color: navy;
+	border-style: ridge;border-color: white;border-width: 3pt;
+	 padding:10pt;
+	 text-align: center;color: white;
+	 width: 60%;margin:auto;}
+
+/*sous-titre : taille 16pt souligné couleur #DF01A5
+             mettre une petite marge gauche*/
+ h2{font-size: 16pt;text-decoration: underline;color:#DF01A5;margin-left: 3%;}
+ 
+/*texte des paroles : gras Times New Roman 12pt couleur #610B4B*/
+li{list-style-type: none;font-weight: bold;font-family: times;font-size: 12pt;color:#610B4B;}
+/*image largeur : 160pt */
+img{width: 160pt;}
+/*colonne Gauche : fond #DBC1F5, décaler un peu du haut, 
+                 ajouter un peu d'espace à droite pour décoller le texte du bord*/
+#div1{background-color:#DBC1F5;margin-top: 5%;margin-right:2%; }
+
+/*colonne Droite : fond #DBC1FB, décaler un peu du haut, 
+                 ajouter un peu d'espace à droite pour décoller le texte du bord*/
+#div2{background-color:#DBC1FB;margin-top: 5%;margin-right: 2%;}
+/*photo à replacer*/
+
+
+

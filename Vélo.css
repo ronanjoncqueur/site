@@ -1,0 +1,22 @@
+/*couleur de fond : rgb(230,187,255)*/
+body{background-color: rgb(230,187,255);}
+/*titre : centré 
+        1ère lettre en italique, deux fois plus grande, de couleur #BB00FB*/
+h1{text-align: center;}
+h1::first-letter {font-style: italic;font-size: 300%;color: #BB00FB;}
+/*paragraphe : gras, texte blue*/
+p{font-weight: bold;color: blue;}
+
+/*liste : puce en chiffres romains majuscules*/
+li{list-style-type:upper-roman;}
+
+/*tableau : bordure noire en pointillés
+          entête tableau : fond rgb(0,127,238)
+          corps du tableau : fond rgb(120,177,248)*/
+table{border:dotted black;}
+th{background-color: rgb(0,127,238);border: solid thin black;}
+tbody{background-color:rgb(120,177,248);}
+td{border:solid thin black;}
+/*page séparée en deux blocs côte à côte*/}
+/*page séparée en deux blocs côte à côte*/
+ 
